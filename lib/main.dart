@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
-    // I.E ONCE THE WIDGETS ARE INVOKED, THE VALUE HER IS ACTIVATED
+    // I.E ONCE THE WIDGETS ARE INVOKED, THE VALUE HERE IS ACTIVATED
     return Scaffold(
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
