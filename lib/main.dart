@@ -53,24 +53,26 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         //APPBAR GOES HERE
         title: Text(widget.title),
+        backgroundColor: Colors.black87,
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Row(
-              children: [
-                const Expanded(
-                  child: Text(
-                    'Black Mamba',
+      body: SafeArea(
+        child: Center(
+          child: Row(
+            children: const [
+              Expanded(
+                child: Text(
+                  'Black Mamba',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 50.0,
                   ),
                 ),
-                Expanded(
-                  child: Image.asset(''),
-                ),
-              ],
-            )
-          ],
+              ),
+              Expanded(
+                child: Text('lorem'),
+              ),
+            ],
+          ),
         ),
       ),
     );
