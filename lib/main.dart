@@ -63,13 +63,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   'Black Mamba',
                   style: TextStyle(
+                    fontFamily: 'Akronim',
                     fontWeight: FontWeight.bold,
                     fontSize: 50.0,
                   ),
                 ),
               ),
               Expanded(
-                child: Text('lorem'),
+                child: Text(
+                  'lorem',
+                  style: TextStyle(
+                      fontFamily: 'Sarina',
+                      fontWeight: FontWeight.bold,
+                      fontSize: 50.0),
+                ),
               ),
             ],
           ),
