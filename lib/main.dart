@@ -59,12 +59,14 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SafeArea(
         child: Center(
           child: Row(children: [
-            Expanded(
+            Flexible(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const [
                   Text(
                     'Blvck Mamba',
+                    textAlign: TextAlign.center,
+                    softWrap: true,
                     style: TextStyle(
                       fontFamily: 'Roboto',
                       fontSize: 100.0,
@@ -72,40 +74,66 @@ class _MyHomePageState extends State<MyHomePage> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  SizedBox(
+                    height: 50.0,
+                    width: 150.0,
+                    child: Divider(),
+                  ),
                   Text(
-                    'Black Lifestyle Lovers',
+                    'Black Lifestyle',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontFamily: 'Roboto',
+                      fontSize: 20.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Text(
+                    'Aliqua excepteur esse do laborum et sunt qui eiusmod. Dolor ut pariatur mollit qui sint ad. Eu ullamco mollit incididunt velit anim commodo est consequat consequat culpa eiusmod. Tempor tempor elit consectetur aliqua. In ipsum esse proident adipisicing est eu nisi esse. Tempor quis pariatur deserunt fugiat ea mollit minim reprehenderit voluptate proident nostrud. Id nisi enim aliquip ad mollit laboris sunt pariatur velit laborum voluptate et officia.',
+                    textAlign: TextAlign.center,
+                    softWrap: true,
                     style: TextStyle(
                       fontFamily: 'Roboto',
                       color: Colors.white,
-                      fontSize: 15.0,
-                      letterSpacing: 2.5,
-                      fontWeight: FontWeight.bold,
+                      fontSize: 10.0,
                     ),
                   ),
                 ],
               ),
             ),
-            Expanded(
+            Container(
+              child: Flexible(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: const [
+                    Image.asset('mugcup.jpg'),
+                  ],
+                ),
+              ),
+            ),
+            Flexible(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const [
                   Text(
-                    'Angela Yu',
+                    'The Feels',
+                    textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontFamily: 'Pacifico',
-                      fontSize: 40.0,
+                      fontFamily: 'Roboto',
+                      fontSize: 20.0,
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   Text(
-                    'FLUTTER DEVELOPER',
+                    'Aliqua excepteur esse do laborum et sunt qui eiusmod. Dolor ut pariatur mollit qui sint ad. Eu ullamco mollit incididunt velit anim commodo est consequat consequat culpa eiusmod. Tempor tempor elit consectetur aliqua. In ipsum esse proident adipisicing est eu nisi esse. Tempor quis pariatur deserunt fugiat ea mollit minim reprehenderit voluptate proident nostrud. Id nisi enim aliquip ad mollit laboris sunt pariatur velit laborum voluptate et officia.',
+                    textAlign: TextAlign.center,
+                    softWrap: true,
                     style: TextStyle(
-                      fontFamily: 'Source Sans Pro',
+                      fontFamily: 'Roboto',
                       color: Colors.white,
-                      fontSize: 20.0,
-                      letterSpacing: 2.5,
-                      fontWeight: FontWeight.bold,
+                      fontSize: 10.0,
                     ),
                   ),
                 ],
