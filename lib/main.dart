@@ -48,38 +48,70 @@ class _MyHomePageState extends State<MyHomePage> {
     // This method is rerun every time setState is called, for instance as done
     // I.E ONCE THE WIDGETS ARE INVOKED, THE VALUE HERE IS ACTIVATED
     return Scaffold(
+      backgroundColor: Colors.black54,
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         //APPBAR GOES HERE
         title: Text(widget.title),
-        backgroundColor: Colors.black87,
+        backgroundColor: Colors.black38,
       ),
       body: SafeArea(
         child: Center(
-          child: Row(
-            children: const [
-              Expanded(
-                child: Text(
-                  'Black Mamba',
-                  style: TextStyle(
-                    fontFamily: 'Akronim',
-                    fontWeight: FontWeight.bold,
-                    fontSize: 50.0,
-                  ),
-                ),
-              ),
-              Expanded(
-                child: Text(
-                  'lorem',
-                  style: TextStyle(
-                      fontFamily: 'Sarina',
+          child: Row(children: [
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: const [
+                  Text(
+                    'Blvck Mamba',
+                    style: TextStyle(
+                      fontFamily: 'Roboto',
+                      fontSize: 100.0,
+                      color: Colors.white,
                       fontWeight: FontWeight.bold,
-                      fontSize: 50.0),
-                ),
+                    ),
+                  ),
+                  Text(
+                    'Black Lifestyle Lovers',
+                    style: TextStyle(
+                      fontFamily: 'Roboto',
+                      color: Colors.white,
+                      fontSize: 15.0,
+                      letterSpacing: 2.5,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
               ),
-            ],
-          ),
+            ),
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: const [
+                  Text(
+                    'Angela Yu',
+                    style: TextStyle(
+                      fontFamily: 'Pacifico',
+                      fontSize: 40.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Text(
+                    'FLUTTER DEVELOPER',
+                    style: TextStyle(
+                      fontFamily: 'Source Sans Pro',
+                      color: Colors.white,
+                      fontSize: 20.0,
+                      letterSpacing: 2.5,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ]),
         ),
       ),
     );

@@ -33,3 +33,6 @@ flutter:
     - family: Sarina
       fonts:
         - asset: fonts/Sarina-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Medium.ttf
