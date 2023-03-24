@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SafeArea(
         child: Center(
           child: Row(children: [
-            Flexible(
+            Expanded(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const [
@@ -102,17 +102,31 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               ),
             ),
-            Container(
-              child: Flexible(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
-                    Image.asset('mugcup.jpg'),
-                  ],
-                ),
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Stack(
+                    children: [
+                      const Text(
+                        'Hello, world!',
+                        style: TextStyle(fontSize: 30.0),
+                      ),
+                      Positioned(
+                        top: 0,
+                        left: 0,
+                        child: Image.asset(
+                          'images/mugcup.jpg',
+                          width: 100.0,
+                          height: 100.0,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
               ),
             ),
-            Flexible(
+            Expanded(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const [
