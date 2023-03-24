@@ -84,19 +84,23 @@ class _MyHomePageState extends State<MyHomePage> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontFamily: 'Roboto',
-                      fontSize: 20.0,
+                      fontSize: 10.0,
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  Text(
-                    'Aliqua excepteur esse do laborum et sunt qui eiusmod. Dolor ut pariatur mollit qui sint ad. Eu ullamco mollit incididunt velit anim commodo est consequat consequat culpa eiusmod. Tempor tempor elit consectetur aliqua. In ipsum esse proident adipisicing est eu nisi esse. Tempor quis pariatur deserunt fugiat ea mollit minim reprehenderit voluptate proident nostrud. Id nisi enim aliquip ad mollit laboris sunt pariatur velit laborum voluptate et officia.',
-                    textAlign: TextAlign.center,
-                    softWrap: true,
-                    style: TextStyle(
-                      fontFamily: 'Roboto',
-                      color: Colors.white,
-                      fontSize: 10.0,
+                  SizedBox(
+                    width: 200.0,
+                    height: 50.0,
+                    child: Text(
+                      'Aliqua excepteur esse do laborum et sunt qui eiusmod. Dolor ut pariatur mollit qui sint ad. Eu ullamco mollit incididunt velit anim commodo est consequat consequat culpa eiusmod. Tempor tempor elit consectetur aliqua. In ipsum esse proident adipisicing est eu nisi esse. Tempor quis pariatur deserunt fugiat ea mollit minim reprehenderit voluptate proident nostrud. Id nisi enim aliquip ad mollit laboris sunt pariatur velit laborum voluptate et officia.',
+                      textAlign: TextAlign.center,
+                      softWrap: true,
+                      style: TextStyle(
+                        fontFamily: 'Roboto',
+                        color: Colors.white,
+                        fontSize: 10.0,
+                      ),
                     ),
                   ),
                 ],
@@ -104,27 +108,14 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Expanded(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Stack(
-                    children: [
-                      const Text(
-                        'Hello, world!',
-                        style: TextStyle(fontSize: 30.0),
-                      ),
-                      Positioned(
-                        top: 0,
-                        left: 0,
-                        child: Image.asset(
-                          'images/mugcup.jpg',
-                          width: 100.0,
-                          height: 100.0,
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'images/coffee.png',
+                      //height: 600.0,
+                      fit: BoxFit.contain,
+                    ),
+                  ]),
             ),
             Expanded(
               child: Column(
@@ -140,14 +131,18 @@ class _MyHomePageState extends State<MyHomePage> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  Text(
-                    'Aliqua excepteur esse do laborum et sunt qui eiusmod. Dolor ut pariatur mollit qui sint ad. Eu ullamco mollit incididunt velit anim commodo est consequat consequat culpa eiusmod. Tempor tempor elit consectetur aliqua. In ipsum esse proident adipisicing est eu nisi esse. Tempor quis pariatur deserunt fugiat ea mollit minim reprehenderit voluptate proident nostrud. Id nisi enim aliquip ad mollit laboris sunt pariatur velit laborum voluptate et officia.',
-                    textAlign: TextAlign.center,
-                    softWrap: true,
-                    style: TextStyle(
-                      fontFamily: 'Roboto',
-                      color: Colors.white,
-                      fontSize: 10.0,
+                  SizedBox(
+                    width: 200.0,
+                    height: 50.0,
+                    child: Text(
+                      'Aliqua excepteur esse do laborum et sunt qui eiusmod. Dolor ut pariatur mollit qui sint ad. Eu ullamco mollit incididunt velit anim commodo est consequat consequat culpa eiusmod. Tempor tempor elit consectetur aliqua. In ipsum esse proident adipisicing est eu nisi esse. Tempor quis pariatur deserunt fugiat ea mollit minim reprehenderit voluptate proident nostrud. Id nisi enim aliquip ad mollit laboris sunt pariatur velit laborum voluptate et officia.',
+                      textAlign: TextAlign.center,
+                      softWrap: true,
+                      style: TextStyle(
+                        fontFamily: 'Roboto',
+                        color: Colors.white,
+                        fontSize: 5.0,
+                      ),
                     ),
                   ),
                 ],
