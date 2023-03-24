@@ -1,16 +1,31 @@
-# blank_mamba
 
-A new Flutter project.
+# :file_folder: Black Mamba
 
-## Getting Started
+A Screen Display to show off the vibe of a Black Lifestyle
 
-This project is a starting point for a Flutter application.
+do give a :star: if you like it :smile:
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## :syringe: Requirements
+
+ - A PC or Mac With any Operating System Installed.
+
+ - Any IDE with Flutter SDK Installed
+
+ - A Brain with a little Knowledge of Dart and Flutter
+
+## :camera: Screenshots
+
+![Screenshot from 2023-03-24 14-21-49](https://user-images.githubusercontent.com/74816797/227532604-ebd0fc55-78ea-4970-bb87-42fb78461e7b.png)
+
+
+
+## :information_desk_person: Author(s)
+
+- #### [StarWolfEmperor](https://www.github.com/StarWOlfEmperor)
+
+
+## :briefcase: License
+[MIT](https://choosealicense.com/licenses/mit/)
+

@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
               end: Alignment.bottomRight,
               colors: [
                 Colors.black,
-                Colors.grey,
+                Colors.black87,
               ],
             ),
           ),
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [Colors.black, Colors.grey],
+            colors: [Colors.black, Colors.black87],
           ),
         ),
         child: SafeArea(
